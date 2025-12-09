@@ -1,51 +1,23 @@
 # SushiFast
 
-**SushiFast** est une application web développée avec React permettant de présenter l'ensemble des menus d'un restaurant de sushis. Elle fournit aux clients toutes les informations nécessaires sur les menus, les ingrédients, les quantités et les tarifs.
+**SushiFast** est une application web développée avec React permettant de présenter l'ensemble des menus d'un restaurant de sushis.
 
 ---
 
-## 📖 Description du projet
+## Description du projet
 
-Le restaurant **SushiFast** souhaite promouvoir ses menus auprès de ses clients.  
-L'application permet :
+Le restaurant **SushiFast** souhaite promouvoir ses menus.
 
-- D'afficher tous les menus avec nom, nombre de pièces, image et prix.
-- De présenter les saveurs de chaque menu.
-- De filtrer les menus contenant certaines saveurs (ex : avocat ou coriandre).
-- De lister les aliments d’un menu donné.
-- De lister les menus ne contenant pas un aliment spécifique (ex : "California Saumon Avocat").
-- De calculer le prix total d’une commande comprenant des menus dont le nombre de pièces est inférieur à 13.
-- D’afficher le menu le plus cher et le menu le moins cher (nom, prix, pièces).
+- Afficher tous les menus avec nom, nombre de pièces, image et prix.
+- Présenter les saveurs de chaque menu.
+- Filtrer les menus contenant certaines saveurs (ex : avocat ou coriandre).
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
-- **React** (création via Vite)
-- **React Router** pour le routage
-- **Bootstrap / React-Bootstrap** pour le design
-- **JSON** pour la source de données (`boxes.json`)
-- **TypeScript** (optionnel)
-- Composants fonctionnels ou à classes selon le choix
-
----
-
-## 📂 Structure des données
-
-Les menus sont fournis via le fichier **`boxes.json`** avec la structure suivante :
-
-```json
-[
-  {
-    "id": 1,
-    "nom": "Menu Sushi",
-    "pieces": 8,
-    "prix": 12.50,
-    "image": "sushi.jpg",
-    "aliments": [
-      {"nom": "Saumon", "quantité": 2},
-      {"nom": "Avocat", "quantité": 1}
-    ],
-    "saveurs": ["umami", "sucré"]
-  }
-]
+- React (via Vite)
+- React Router
+- Bootstrap / React-Bootstrap
+- JSON (`boxes.json`)
+- TypeScript (optionnel)
