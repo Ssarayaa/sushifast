@@ -23,7 +23,6 @@ pièces est inférieur à 13.
 - React Router
 - Bootstrap / React-Bootstrap
 - JSON (`boxes.json`)
-- TypeScript (optionnel)
 
 ## Equipes
 
