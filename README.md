@@ -29,5 +29,5 @@ pièces est inférieur à 13.
 
 ## Equipes
 
-- Sarah ZAIEM
 - Nicolas BUISSET
+- Sarah ZAIEM
