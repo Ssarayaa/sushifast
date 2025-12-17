@@ -1,16 +1,31 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# SushiFast
 
-Currently, two official plugins are available:
+**SushiFast** est une application web développée avec React permettant de présenter l'ensemble des menus d'un restaurant de sushis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Description du projet
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Le restaurant **SushiFast** souhaite promouvoir ses menus.
 
-## Expanding the ESLint configuration
+- Afficher tous les menus avec nom, nombre de pièces, image et prix.
+- Présenter les saveurs de chaque menu.
+- Liste des aliments d'un menu donné 
+- Liste des menus contenant les saveurs suivantes : avocat ou coriandre.
+- Liste des menus ne contenant l'aliment : "California Saumon Avocat".
+- Le prix total à payer pour une commande intégrant des menus dont le nombre de 
+pièces est inférieur à 13.
+- Afficher le menu le plus cher et le menu le moins cher (nom, prix, pieces).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies utilisées
+
+- React (via Vite)
+- React Router
+- Bootstrap / React-Bootstrap
+- JSON (`boxes.json`)
+
+## Equipes
+
+- Sarah ZAIEM
+- Nicolas BUISSET
