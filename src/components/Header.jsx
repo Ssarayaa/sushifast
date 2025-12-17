@@ -34,10 +34,10 @@ function Header() {
               </NavDropdown.Item>
               <NavDropdown.Divider className="dropdown-divider-custom"/>
               <NavDropdown.Item as={Link} to="/petite-commande" className="dropdown-item-custom">
-                 🥢 Petite faim
+                Petite faim
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/extremes" className="dropdown-item-custom">
-                 💎 Menus Extrêmes
+                Menus Extrêmes
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
